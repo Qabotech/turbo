@@ -498,7 +498,7 @@ cursor:zoom-in;
         padding: 10px 10px;
     }
     .con0{
-        width: 90%;
+        width: 100%;
         display: grid;
         place-self: center;
         place-content: center;
