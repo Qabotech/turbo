@@ -326,13 +326,13 @@ filter: blur(3px);
 .tstb{
     width: 100%;
     display: flex;
-    margin: auto;
     margin-bottom: 10%;
     margin-top: 5%;
     
 }
 .Mtxt{
 width: 100%;
+margin: 10%;
 display: grid;
 place-content: center;
 place-items: center;
@@ -597,42 +597,19 @@ cursor:zoom-in;
     }
 } 
 @media (max-width:1025px) { 
-
     .tstb{
         display: none;
     }
     .footer{
         display: none;
     }
-    .txt4{
-        height: 900px;
-        display: grid;
-        place-self: center;
-        place-items: center;
-        place-content: center;
-    }
-    .txt4 p{
-        width: 150%;
-        margin-right: 50%;
-        margin-top: 30%;
-    }
-    .txt4 h1{
-        width: 150%;
-        
-        margin-right: 50%;
-    }
     .con1{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        margin: auto;
-        height: 1200px;
-        
+        height: 1000px;
     }
-    .tst22{
-        background-color: #333;
-    }
+
     .img0{
     float: right;
     width: 50%;
@@ -644,7 +621,28 @@ cursor:zoom-in;
     height: 100%;
     }
     
-
+    .txt4{
+        float: left;
+        width: 100%;
+        height: 700px;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        display: grid ;
+        place-items: center;
+        margin-right: 30%;
+    }
+    .txt4 h1{
+        font-size: xxx-large;
+        text-shadow: #34F8B1 -5px 5px 5px;
+    }
+    .txt4 p{
+        font-size: x-large;
+        font-family: 'Crimson Text', serif;
+        width: 100%;
+        text-shadow: hsl(158, 51%, 24%) -5px 5px 5px;
+        padding: 10px 10px;
+    }
     .con0{
         width: 100%;
         display: grid;
@@ -659,7 +657,7 @@ cursor:zoom-in;
         place-self: center;
         place-content: center;
         place-items: center;
-        
+        margin-right: 20%;
     }
     .tstb1{
         display: grid;
