@@ -12,6 +12,7 @@ gsap.to(".con1",{
     duration:10,
     scrollTrigger: {
         trigger:".con1",
+        start:"top center",
         toggleClass:"slide-in-left",
     },
 })
