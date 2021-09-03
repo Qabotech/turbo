@@ -5,6 +5,7 @@ body,html{
     margin: 0;
     padding: 0;
 }
+
 body{
 width: 100%;
 height: 100%;
@@ -105,7 +106,6 @@ cursor: pointer;
 .con1{
     width: 100%;
     border: solid 5px #333;
-    margin-top: 10%;
     background-color: #333;
     height: 500px;
     margin-bottom: 10%;
@@ -129,7 +129,10 @@ height: 500px;
 filter: blur(3px);
 
 }
-
+.txtM{
+    margin: 0;
+    padding: 0;
+}
 .txt4{
     float: left;
     width: 50%;
@@ -154,10 +157,18 @@ filter: blur(3px);
     margin-top: 3%;
     margin-bottom: 3%;
 }
+/*---triggers---------------------------------------------------------------------------------------------------*/
+.trigger0{
+    width: 100%;
+    height:10px ;
+    margin-bottom:34% ;
+    background-color: white;
+}
 /*---animation---------------------------------------------------------------------------------------------------*/
+
 .scale-in-top {
-	-webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: scale-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 @-webkit-keyframes scale-in-top {
     0% {
@@ -192,8 +203,8 @@ filter: blur(3px);
     }
   }
 .slide-in-left {
-	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 @-webkit-keyframes slide-in-left {
     0% {
@@ -220,8 +231,8 @@ filter: blur(3px);
     }
   }
 .slide-in-bottom {
-	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 @-webkit-keyframes slide-in-bottom {
     0% {
@@ -247,6 +258,7 @@ filter: blur(3px);
       opacity: 1;
     }
   }
+
 /*---0TXT----------------------------------------------------------------------------------------------------*/
 #fade0 h1 {
 
@@ -393,6 +405,7 @@ margin: 10%;
 display: grid;
 place-content: center;
 place-items: center;
+margin-bottom: 0;
 }
 .txt0{
     margin-top: 2%;
